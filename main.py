@@ -1,8 +1,8 @@
 from telethon import TelegramClient, events
-import re, os
+import os
 
-api_id = int(os.environ["34577885"])
-api_hash = os.environ["a2ee479674d5b5311dd00298ee51a500"]
+api_id = int(os.environ.get("34577885"))
+api_hash = os.environ.get("a2ee479674d5b5311dd00298ee51a500")
 
 source_channel = "Atach_toptan"
 target_channel = "Stepxwomenpajamas"
